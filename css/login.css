@@ -1,0 +1,81 @@
+:root{
+    --primary : #002B5B;
+    --secondary : #8FE3CF;
+    --third : #042244;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body{
+    justify-content: center;
+    background: var(--third);
+}
+
+.form-group{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: #fff;
+    text-align: center;
+    
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.form{
+    padding: 10px;
+    display: grid;
+    text-align: left;
+    
+
+}
+.form label{
+    padding: 10px;
+}
+
+.form input{
+    padding: 5px;
+}
+p{
+    font-size: 12px;
+    padding: 10px;
+}
+
+button{
+    padding: 10px 95px;
+    border: none;
+    border-radius: 20px;
+    background: var(--primary);
+    font-weight: bold;
+    color: #fff;
+    transition: 0.1s;
+}
+
+button:hover{
+    background: #fff;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.radiobutton {
+    padding: 10px
+}
+
+.radiobutton label{
+    font-size: 12px;
+    padding:5px
+}
+
